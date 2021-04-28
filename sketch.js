@@ -42,8 +42,8 @@ function setup() {
   obstaclesGroup = new Group();
 
   score = 0;
-   camera.position.x= displayWidth/2
-  camera.position.y= displayHeight/2
+   camera.position.x= backgr.x
+  camera.position.y= height/2
 }
 
 function draw() {
